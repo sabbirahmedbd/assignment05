@@ -1,0 +1,239 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+section {
+	background-color: #FCDB00;
+	
+}
+
+header	{
+
+padding: 35px 0px;
+
+overflow: hidden;
+}
+.container {
+
+width: 980px;
+
+margin: auto;
+}
+
+.logo {
+
+width: 20%;
+
+float: left;
+}
+
+.logo img {
+	
+}
+
+nav {
+
+width: 80%;
+
+float: right;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    display: block;
+    padding: 8px 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img	{ max-width: 100% }
+
+section .content {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.flex {
+	
+display: flex;
+	
+flex-wrap: wrap;
+}
+.content .content-left {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.content .content-left h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.content .content-left h3 {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+.content .content-left p {
+    color: #00000085;
+    margin-bottom: 20px;
+}
+
+.content .content-left ul {
+    list-style: none;
+}
+.content .content-left ul li {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    font-size: 40px;
+}
+.content .content-left ul li a {
+}
+.content .content-right {
+    flex-basis: 48%;
+    max-width: 48%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 520px;
+}
+.content .content-right img {}
+
+.features {
+    background-color: white;
+    padding: 60px 0px;
+}
+.features .features-header {
+    text-align: center;
+    padding: 0px 90px 30px;
+}
+.features .features-header h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.features .features-header p {
+    font-weight: 500;
+    font-size: 18px;
+}
+.features .features-content {
+    display: flex;
+    padding: 20px 0px;
+}
+.features-content .features-single {
+    padding: 10px;
+    display: flex;
+}
+.features-content .features-single img {
+	max-height: 30px;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.features-single h1 {
+    font-size: 25px;
+}
+.features-single p {}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 50px 0px;
+}
+
+.footer-top {
+	text-align: center;
+    padding: 0 70px;
+}
+.footer-top h1 {
+	color: #FCDB00;
+    padding: 10px 0;
+    font-size: 35px;
+}
+.footer-top p {
+	 padding: 10px 0;
+    font-size: 18px;
+    color: #898989;
+}
+.footer-gmail {
+	text-align: center;
+    margin-top: 30px;
+}
+.footer-gmail form {}
+
+.footer-gmail form .reg {
+	width: 10%;
+    box-sizing: border-box;
+    background: #FCDB00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-gmail input {
+	background: #e4e2e2;
+    border: 0;
+    padding: 12px 20px;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 7px;
+   
+}
+
+.social {
+	text-align: center;
+    padding: 50px 0;
+}
+.social ul {}
+.social ul li {
+	display: inline-block;
+    margin: 7px;
+    background: #FCDB00;
+    padding: 1px;
+    width: 25px;
+    border-radius: 4px;
+}
+.social ul li a {
+	color: #010101;
+    display: block;
+    font-size: 20px;
+}
+
+footer .footer-bottom {
+
+overflow: hidden;
+
+padding: 10px 0px 10px 95px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    float: left;
+    color: yellow;
+}
+.footer-bottom ul li { margin-right: 70px;}
+.footer-bottom ul li a {
+    text-decoration: none;
+    color:yellow;
+    display: block;
+}
